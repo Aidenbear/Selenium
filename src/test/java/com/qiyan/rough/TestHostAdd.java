@@ -6,8 +6,8 @@ import java.net.UnknownHostException;
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 
-import com.w2a.utilities.MonitoringMail;
-import com.w2a.utilities.TestConfig;
+import com.qiyan.utilities.MonitoringMail;
+import com.qiyan.utilities.TestConfig;
 
 public class TestHostAdd {
 

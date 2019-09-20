@@ -8,8 +8,8 @@ import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-import com.w2a.base.TestBase;
-import com.w2a.utilities.TestUtil;
+import com.qiyan.base.TestBase;
+import com.qiyan.utilities.TestUtil;
 
 public class OpenAccountTest extends TestBase {
 

@@ -24,9 +24,9 @@ import org.testng.annotations.BeforeSuite;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-import com.w2a.utilities.ExcelReader;
-import com.w2a.utilities.ExtentManager;
-import com.w2a.utilities.TestUtil;
+import com.qiyan.utilities.ExcelReader;
+import com.qiyan.utilities.ExtentManager;
+import com.qiyan.utilities.TestUtil;
 
 public class TestBase {
 	//again test2
@@ -43,7 +43,7 @@ public class TestBase {
 	public static FileInputStream fis;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
 	public static ExcelReader excel = new ExcelReader(
-			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
+			System.getProperty("user.dir") + "/src/test/resources/excel/testdata.xlsx");
 	public static WebDriverWait wait;
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
@@ -56,7 +56,7 @@ public class TestBase {
 
 			try {
 				fis = new FileInputStream(
-						System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties");
+						System.getProperty("user.dir") + "/src/test/resources/properties/Config.properties");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -71,7 +71,7 @@ public class TestBase {
 
 			try {
 				fis = new FileInputStream(
-						System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties");
+						System.getProperty("user.dir") + "/src/test/resources/properties/OR.properties");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -108,13 +108,13 @@ public class TestBase {
 			} else if (config.getProperty("browser").equals("chrome")) {
 
 				System.setProperty("webdriver.chrome.driver",
-						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
+						System.getProperty("user.dir") + "/src/test/resources/executables/chromedriver.exe");
 				driver = new ChromeDriver();
 				log.debug("Chrome Launched !!!");
 			} else if (config.getProperty("browser").equals("ie")) {
 
 				System.setProperty("webdriver.ie.driver",
-						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
+						System.getProperty("user.dir") + "/src/test/resources/executables/IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
 
 			}

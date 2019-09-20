@@ -11,7 +11,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.DataProvider;
 
-import com.w2a.base.TestBase;
+import com.qiyan.base.TestBase;
 
 public class TestUtil extends TestBase {
 
@@ -26,7 +26,7 @@ public class TestUtil extends TestBase {
 		screenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
 
 		FileUtils.copyFile(scrFile,
-				new File(System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\" + screenshotName));
+				new File(System.getProperty("user.dir") + "/target/surefire-reports/html/" + screenshotName));
 
 	}
 

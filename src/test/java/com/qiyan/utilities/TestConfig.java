@@ -4,13 +4,13 @@ public class TestConfig{
 
 	
 	public static String server="smtp.gmail.com";
-	public static String from = "vaffaproject@gmail.com";
-	public static String password = "Selenium@123";
-	public static String[] to ={"seleniumcoaching@gmail.com","trainer@way2automation.com"};
+	public static String from = "123@gmail.com";
+	public static String password = "123";
+	public static String[] to ={"234@gmail.com","123@gmail.com"};
 	public static String subject = "Extent Project Report";
 	
 	public static String messageBody ="TestMessage";
-	public static String attachmentPath="c:\\screenshot\\2017_10_3_14_49_9.jpg";
+	public static String attachmentPath="/Users/aidenzhang/Downloads/fileneededforselenium/2019_8_23.jpg";
 	public static String attachmentName="error.jpg";
 	
 	

@@ -16,10 +16,10 @@ import org.testng.Reporter;
 import org.testng.SkipException;
 
 import com.relevantcodes.extentreports.LogStatus;
-import com.w2a.base.TestBase;
-import com.w2a.utilities.MonitoringMail;
-import com.w2a.utilities.TestConfig;
-import com.w2a.utilities.TestUtil;
+import com.qiyan.base.TestBase;
+import com.qiyan.utilities.MonitoringMail;
+import com.qiyan.utilities.TestConfig;
+import com.qiyan.utilities.TestUtil;
 
 public class CustomListeners extends TestBase implements ITestListener,ISuiteListener {
 
