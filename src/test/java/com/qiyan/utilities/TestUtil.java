@@ -1,4 +1,4 @@
-package com.w2a.utilities;
+package com.qiyan.utilities;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.w2a.utilities;
+package com.qiyan.utilities;
 import java.util.Properties;
 import javax.activation.DataHandler;
 import javax.activation.DataSource;

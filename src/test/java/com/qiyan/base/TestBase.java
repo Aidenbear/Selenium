@@ -1,4 +1,4 @@
-package com.w2a.base;
+package com.qiyan.base;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

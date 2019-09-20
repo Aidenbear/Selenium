@@ -1,4 +1,4 @@
-package com.w2a.utilities;
+package com.qiyan.utilities;
 public class TestConfig{
 
 

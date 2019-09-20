@@ -1,4 +1,4 @@
-package com.w2a.testcases;
+package com.qiyan.testcases;
 
 import java.io.IOException;
 
